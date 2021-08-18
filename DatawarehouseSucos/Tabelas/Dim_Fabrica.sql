@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [dbo].[Dim_Fabrica]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[Cod_Fabrica] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [Desc_Fabrica] NCHAR(200) NULL
 )
